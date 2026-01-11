@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Animated Tech Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="background-animation"></div>
+
+    <main class="glass-card">
+        <section id="hero">
+            <div class="profile-frame animate-fade-in">
+                <img src="your-photo.jpg" alt="My Photo" class="profile-img">
+            </div>
+            <h1 class="neon-text animate-slide-in">YOUR NAME</h1>
+            <p class="subtitle animate-fade-in">Tech Enthusiast | Developer | Creator</p>
+            <p class="about animate-fade-in">I build the future with code and creativity.</p>
+        </section>
+
+        <nav class="nav-menu animate-fade-in">
+            <button class="nav-btn" data-target="skills">SKILLS</button>
+            <button class="nav-btn" data-target="college">COLLEGE</button>
+            <button class="nav-btn" data-target="projects">PROJECTS</button>
+            <button class="nav-btn" data-target="hobbies">HOBBIES</button>
+        </nav>
+
+        <div id="content-display" class="content-box">
+            <p class="initial-message">Select a topic to explore my universe.</p>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
